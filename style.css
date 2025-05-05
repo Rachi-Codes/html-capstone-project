@@ -1,0 +1,74 @@
+.top-container{
+    background-color: #e4f9f5;
+    padding-top: 40px;
+    position:relative
+}
+.title-text{
+    font-family: "Merriweather" , serif;
+    color: #40514e;
+    text-align: center;
+}
+div div img{
+    border-radius: 50%;
+}
+body {
+    font-family: "Merriweather" , serif;
+    color: #40514e;
+    text-align: center;   
+    list-style: none;
+}
+h2 {
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr); 
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    row-gap: 2rem;
+}
+
+.container{   
+    width: 50%;
+}
+.customer-service-text{
+    padding: right 50px;
+}
+li{
+    list-style: none;
+}
+p{
+    line-height: 2;
+}
+.contact-message{
+    width: 40%;
+    margin:30px auto 30px;
+}
+h3{
+    color: #11999e;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.contact-me{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+.monitoring {
+margin-top: 30px;
+margin-bottom: 30px;
+}
